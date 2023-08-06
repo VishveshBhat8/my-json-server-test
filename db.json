@@ -1,14 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "projects": [
+      {
+        "name": "First Card",
+        "imgSrc": "https://source.unsplash.com/random/192x108/?wallpaper,landscape",
+        "imgAlt": "Image of a random landscape from Unsplash",
+        "description": "This is the First Card! It contains the name, image, description, and a read more link.",
+        "readMore": "https://ucsd.edu"
+      },
+      {
+        "name": "Second Card",
+        "imgSrc": "./trident.png",
+        "imgAlt": "Image of the trident logo",
+        "description": "This is the Second Card! It contains the name, image, description, and a read more link.",
+        "readMore": "https://ucsd.edu"
+      },
+      {
+        "name": "Third Card",
+        "imgSrc": "https://source.unsplash.com/random/192x108/?wallpaper,scenery",
+        "imgAlt": "Image of a random scenery from Unsplash",
+        "description": "This is the Third Card! It contains the name, image, description, and a read more link.",
+        "readMore": "https://ucsd.edu"
+      }
+    ]
   }
-}
